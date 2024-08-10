@@ -16,12 +16,12 @@ html, body {
     margin: 20px;
 }
 
-.link {
+a {
     color: #0f0;
     text-decoration: underline;
 }
 
-.link:hover {
+a:hover {
     color: #090;
     text-decoration: underline;
 }
