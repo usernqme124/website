@@ -41,3 +41,7 @@ html, body {
 .small {
     font-size: small;
 }
+
+.linkspace {
+    cursor: progress;
+}
