@@ -4,7 +4,7 @@ html {
     color: #0f0;
 }
 
-html::selection {
+::selection {
     background: #0f0;
     color: #000;
 }
