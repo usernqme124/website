@@ -1,0 +1,43 @@
+html, body {
+    background: #000;
+    font-family: 'consolas', monospace;
+    color: #0f0;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid;
+    border-radius: 7px;
+    border-color: #0d0;
+    padding: 15px;
+    margin: 20px;
+}
+
+.link {
+    color: #0f0;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #090;
+    text-decoration: underline;
+}
+
+.larger {
+    font-size: larger;
+}
+
+.large {
+    font-size: large;
+}
+
+.medium {
+    font-size: medium;
+}
+
+.small {
+    font-size: small;
+}
