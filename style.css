@@ -4,6 +4,11 @@ html {
     color: #0f0;
 }
 
+html::selection {
+    background: #0f0;
+    color: #000;
+}
+
 .textcenter {
     text-align: center;
 }
