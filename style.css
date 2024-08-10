@@ -4,19 +4,10 @@ html {
     color: #0f0;
 }
 
-::-moz-selection {
+::selection, ::-moz-selection, ::-webkit-selection {
     background: #0f0;
     color: #000;
-}
-
-::-webkit-selection {
-    background: #0f0;
-    color: #000;
-}
-
-::selection {
-    background: #0f0;
-    color: #000;
+    -webkit-text-fill-color: #000;
 }
 
 .textcenter {
