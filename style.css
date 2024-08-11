@@ -12,7 +12,7 @@ html {
 
 @media (min-width: 451px) {
     .linkspace-mobile {
-        display: none
+        display: none;
     }
 
     .linkspace-desktop {
@@ -67,5 +67,5 @@ html {
 
 .linkspace-mobile {
     cursor: progress;
-    display: block
+    display: block;
 }
