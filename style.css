@@ -10,17 +10,6 @@ html {
     -webkit-text-fill-color: #000;
 }
 
-@media (min-width: 451px) {
-    .linkspace-mobile {
-        display: none;
-    }
-
-    .linkspace-desktop {
-        display: block;
-        background-color: lightblue; /* For testing visibility */
-    }
-}
-
 .textcenter {
     text-align: center;
 }
@@ -68,4 +57,14 @@ html {
 .linkspace-mobile {
     cursor: progress;
     display: block;
+}
+
+@media (min-width: 28.1875em) {
+    .linkspace-mobile {
+        display: none;
+    }
+
+    .linkspace-desktop {
+        display: block;
+    }
 }
