@@ -10,6 +10,24 @@ html {
     -webkit-text-fill-color: #000;
 }
 
+@media (min-width: 451px) {
+    .mobile {
+        display: none
+    }
+
+    .desktop {
+        display: block;
+    }
+}
+
+.mobile {
+    display: block
+}
+
+.desktop {
+    display: none
+}
+
 .textcenter {
     text-align: center;
 }
