@@ -17,9 +17,9 @@ html {
 
     .linkspace-desktop {
         display: block;
+        background-color: lightblue; /* For testing visibility */
     }
 }
-
 
 .textcenter {
     text-align: center;
