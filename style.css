@@ -11,22 +11,15 @@ html {
 }
 
 @media (min-width: 451px) {
-    .mobile {
+    .linkspace-mobile {
         display: none
     }
 
-    .desktop {
+    .linkspace-desktop {
         display: block;
     }
 }
 
-.mobile {
-    display: block
-}
-
-.desktop {
-    display: none
-}
 
 .textcenter {
     text-align: center;
@@ -66,6 +59,13 @@ html {
     font-size: small;
 }
 
-.linkspace {
+.linkspace-desktop {
     cursor: progress;
+    display: none;
+}
+
+
+.linkspace-mobile {
+    cursor: progress;
+    display: block
 }
